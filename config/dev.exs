@@ -22,7 +22,7 @@ config :books_api, BooksApiWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4000],
   check_origin: false,
   code_reloader: true,
-  debug_errors: true,
+  debug_errors: false,
   secret_key_base: "6tYuIKE2qzjovTSLKeeBJ9dfeNMfdsd3P8LFcK3yaytHUwXNZM/5PoQa3wMQPNzu",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
